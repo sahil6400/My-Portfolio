@@ -2,17 +2,17 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "dev": "rimraf .next && next dev --webpack",
-    "build": "rimraf .next && next build",
-    "start": "next start",
-    "lint": "eslint"
-  },
+"scripts": {
+  "dev": "rimraf .next && next dev",
+  "build": "rimraf .next && next build",
+  "start": "next start",
+  "lint": "eslint"
+},
   "dependencies": {
-    "next": "16.2.1",
+    "next": "^15.5.14",
     "nodemailer": "^8.0.3",
-    "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -20,6 +20,7 @@
     "@types/nodemailer": "^7.0.11",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "16.2.1",
     "rimraf": "^6.1.3",
