@@ -14,7 +14,11 @@ const skillCategories: SkillCategory[] = [
       "HTML5",
       "CSS3",
       "JavaScript",
+      "jquery",
+      "Ajax",
       "TypeScript",
+      "bootstrap",
+      "Tailwind CSS",
     ],
   },
   {
@@ -22,7 +26,8 @@ const skillCategories: SkillCategory[] = [
     skills: [
       "PHP (CodeIgniter)",
       "REST API Development",
-      "Node.js (basic)",
+      "Node.js",
+      "Next.js",
       "Express.js",
       "Role-Based Authentication",
       "Debugging & Performance Optimization",
@@ -38,9 +43,21 @@ const skillCategories: SkillCategory[] = [
       "WordPress",
       "WooCommerce",
       "Custom Plugin & Theme Integration",
+      "Learning Management System (LMS) Implementation",
       "cPanel",
       "Postman",
       "Git",
+    ],
+  },
+  {
+    name: "Leadership & Project Management",
+    skills: [
+      "Team Leadership",
+      "Project Management",
+      "Client Requirements Analysis",
+      "Stakeholder Communication",
+      "Cross-Functional Team Coordination",
+      "Technical Team Mentoring",
     ],
   },
   {
