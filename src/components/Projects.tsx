@@ -11,36 +11,32 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "SaaS Student Management, LMS & Online Examination Platform",
+    title: "Travel Agency Internal Operations & Flight Control Platform",
     description:
-      "Designed and developed a complete SaaS-based Student Management System, Learning Management System (LMS), and Online Examination Platform with WordPress website, custom student portal, admin panel, live classes, video learning, test system, and performance analytics.",
-    role: "Full Stack Developer & System Architect",
+      "Currently leading the design and development of a travel agency internal management system that supports operations tracking, sales and budget management, SLA monitoring, and flight operations control.",
+    role: "Project Lead & Frontend Lead",
     responsibilities: [
-      "Designed complete UI/UX for the website, student portal, and admin dashboard",
-      "Developed main website in WordPress with custom plugins",
-      "Built Student Portal with video learning, notes, tests, and performance tracking",
-      "Developed Online Examination System with test creation, test analysis, and results",
-      "Implemented student attendance tracking and Zoom live class integration",
-      "Built Admin Panel in CodeIgniter to control website, student portal, and exams",
-      "Developed custom dashboards for student performance analytics and reporting",
-      "Created video streaming system with progress tracking and analytics",
-      "Implemented notes system, comment system, and personal student notes saving",
-      "Integrated third-party study platform into the system as per client requirements"
+      "Led project planning and execution from concept to implementation",
+      "Captured and translated client requirements into technical product workflows",
+      "Defined system fields, data structure, and process flows for sales, budgets, SLAs, and flight control",
+      "Managed a cross-functional team through sprint planning and delivery",
+      "Delivered frontend development using React.js and Tailwind CSS",
+      "Collaborated with backend engineers on API design, security, and integrations",
+      "Guided team adoption of JWT-based authentication and secure session handling",
+      "Reviewed UI and data entry forms to ensure operational accuracy and client usability"
     ],
     technologies: [
-      "WordPress",
-      "Custom WordPress Plugins",
-      "PHP",
-      "CodeIgniter",
-      "MySQL",
+      "React.js",
+      "Tailwind CSS",
+      "Node.js",
+      "Express.js",
+      "JWT Authentication",
       "REST API",
-      "Bootstrap",
-      "Zoom API",
-      "Video Streaming",
-      "LMS Development"
+      "Team Leadership",
+      "Requirements Analysis"
     ],
     outcome:
-      "Delivered a complete SaaS education platform used for managing students, online classes, examinations, and performance analytics. The system automated student management, testing, and learning workflows and significantly reduced manual administrative work.",
+      "Building an internal travel agency platform that streamlines tracking, sales management, budget control, SLA monitoring, and flight operations for improved operational efficiency.",
   },
   {
     title: "Spa Center Staff Management & Attendance Mobile App",
